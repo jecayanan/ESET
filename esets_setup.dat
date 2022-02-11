@@ -1,0 +1,13 @@
+# Remote Install Setup data file for ESET Endpoint Antivirus
+# (C) 2016 ESET, spol. s r.o.
+
+# WARNING: This file must be copied to /tmp folder of remote target before installation
+# of ESET Endpoint Antivirus will begin. The file name must not be changed!
+
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"daemon.settings.delivery_manager.enabled": true}}}'
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"daemon.settings.delivery_manager.samples_send_files": false}}}'
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"daemon.settings.security.privileges.users": ["root", "owensadmn"]}}}'
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"daemon.settings.global_scanner.application.unwanted": false}}}'
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"daemon.settings.delivery_manager.samples_send_stats": false}}}'
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"daemon.settings.security.privileges.groups": ["admin"]}}}'
+'{"method": "_CE.rpc_api.screen_values_set", "id": 0, "params": {"major": 393227, "minor": 65536, "product": "endpoint_mac", "product_name": "endpoint_mac", "with_arrays": true, "values": {"plugins.firewall.mode": 0}}}'
